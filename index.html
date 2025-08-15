@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-
+    
     <!-- TikTok Pixel Code Start -->
 <script>
 !function (w, d, t) {
@@ -30,6 +30,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 }(window, document, 'ttq');
 </script>
 <!-- TikTok Pixel Code End -->
+
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -135,69 +136,16 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
         });
     </script>
 
-    <!-- Hero Section with Carousel -->
-    <section class="relative min-h-screen flex items-center justify-center p-4">
-        <div class="absolute inset-0 gold-gradient opacity-20"></div>
-        <div class="container mx-auto relative z-10">
-            <!-- Carousel -->
-            <div class="carousel-container mb-8">
-                <div class="carousel-slide active">
-                    <img src="https://www.rwem625b.shop/huanj/img/1.jpg" alt="黃金手鐲展示" class="w-full object-cover">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://www.rwem625b.shop/huanj/img/2.jpg" alt="黃金手鐲展示" class="w-full object-cover">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://www.rwem625b.shop/huanj/img/3.jpg" alt="黃金手鐲展示" class="w-full object-cover">
-                </div>
-                <div class="carousel-slide">
-                    <img src="https://www.rwem625b.shop/huanj/img/4.jpg" alt="黃金手鐲展示" class="w-full object-cover">
-                </div>
-                
-                <!-- Carousel Navigation -->
-                <button onclick="previousSlide()" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition-all">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button onclick="nextSlide()" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition-all">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-                
-                <!-- Carousel Dots -->
-                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-                    <button onclick="goToSlide(0)" class="carousel-dot w-3 h-3 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 transition-all active"></button>
-                    <button onclick="goToSlide(1)" class="carousel-dot w-3 h-3 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 transition-all"></button>
-                    <button onclick="goToSlide(2)" class="carousel-dot w-3 h-3 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 transition-all"></button>
-                    <button onclick="goToSlide(3)" class="carousel-dot w-3 h-3 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 transition-all"></button>
-                </div>
-            </div>
-            
+
+
     <!-- Wearing Effects -->
     <section class="py-16 px-4 pb-80">
         <div class="container mx-auto">
             <h2 class="text-3xl md:text-4xl font-bold text-center luxury-gold mb-12">
                 佩戴效果
             </h2>
-            <div class="carousel-container">
-                <div class="carousel-slide active" id="wear-slide-1">
-                    <img src="https://www.rwem625b.shop/huanj/img/7.jpg" alt="佩戴效果" class="w-full object-cover">
-                </div>
-                <div class="carousel-slide" id="wear-slide-2">
-                    <img src="https://www.rwem625b.shop/huanj/img/8.png" alt="佩戴效果" class="w-full object-cover">
-                </div>
-                
-                <!-- Carousel Navigation -->
-                <button onclick="previousWearSlide()" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition-all">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button onclick="nextWearSlide()" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition-all">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-                
-                <!-- Carousel Dots -->
-                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-                    <button onclick="goToWearSlide(0)" class="wear-carousel-dot w-3 h-3 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 transition-all active"></button>
-                    <button onclick="goToWearSlide(1)" class="wear-carousel-dot w-3 h-3 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 transition-all"></button>
-                </div>
+            <div class="rounded-lg overflow-hidden shadow-lg">
+                <img src="https://www.rwem625b.shop/huanj/img/7.jpg" alt="佩戴效果" class="w-full object-cover">
             </div>
         </div>
     </section>
@@ -357,13 +305,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
             buttonDiv.className = 'flex space-x-2 mt-3';
             
             buttonDiv.innerHTML = `
-            <!--
-                <button onclick="contactWhatsApp()" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg text-white font-semibold flex items-center justify-center space-x-2 transition-all flex-1">
-                    <i class="fab fa-whatsapp"></i>
-                    <span>WhatsApp</span>
-                </button>
-                -->
-                <button onclick="contactLine()" class="bg-green-400 hover:bg-green-500 px-4 py-2 rounded-lg text-white font-semibold flex items-center justify-center space-x-2 transition-all flex-1">
+                <button onclick="contactLine()" class="bg-green-400 hover:bg-green-500 px-4 py-2 rounded-lg text-white font-semibold flex items-center justify-center space-x-2 transition-all w-full">
                     <i class="fab fa-line"></i>
                     <span>Line</span>
                 </button>
@@ -376,13 +318,12 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
         function contactWhatsApp() {
             const message = `您好，我想諮詢${selectedGender}${selectedProduct}的相關信息`;
             const encodedMessage = encodeURIComponent(message);
-            window.open(`https://wa.me/85254155721?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E5%90%8C%E6%BA%90%E9%87%91%E5%8C%85%E9%93%B6%E6%BA%90%E5%A4%B4%E5%B7%A5%E5%8E%82%E4%B8%80%E4%BB%B6%E9%83%BD%E6%98%AF%E6%89%B9%E5%8F%91%E4%BB%B7%E5%8F%AA%E8%B5%9A%E5%B7%A5%E8%B4%B9%EF%BC%8C%E5%9B%BD%E6%A3%80%E8%AF%81%E4%B9%A6%E6%A0%87%E9%85%8D%EF%BC%8C%E6%94%AF%E6%8C%81%E4%BB%BB%E4%BD%95%E6%9D%83%E5%A8%81%E6%9C%BA%E6%9E%84%E5%A4%8D%E6%A3%80%E5%81%87%E4%B8%80%E8%B5%94%E4%B8%89%EF%BC%8C%E7%BB%88%E8%BA%AB%E8%B4%A8%E4%BF%9D%E6%94%AF%E6%8C%81%E5%9B%9E%E6%94%B6%E7%BD%AE%E6%8D%A2%EF%BC%81%0A%0A%E5%B1%95%E5%8E%855000%E4%B8%87%E7%8E%B0%E8%B4%A7%EF%BC%8C%E6%AC%BE%E5%BC%8F%E9%BD%90%E5%85%A8%E6%9C%89%E9%A1%B9%E9%93%BE%E3%80%81%E6%89%8B%E9%95%AF%E3%80%81%E6%89%8B%E9%93%BE%E3%80%81%E6%88%92%E6%8C%87%E3%80%81%E5%90%8A%E7%89%8C%E7%AD%89%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%BB%A1%E8%B6%B3%E4%B8%8D%E5%90%8C%E5%9C%BA%E5%90%88%E7%9A%84%E4%BD%A9%E6%88%B4%E9%9C%80%E6%B1%82%EF%BC%8C%E7%9B%B8%E5%86%8C%E6%AC%BE%E5%BC%8F%E9%BD%90%E5%85%A8%E6%9C%89%E5%96%9C%E6%AC%A2%E7%9A%84%E6%AC%BE%E5%BC%8F%E5%8F%91%E6%88%91%E7%BB%99%E4%BD%A0%E4%BB%8B%E7%BB%8D%0A`, '_blank');
-              ttq.track('Contact');
-             ttq.track('Purchase');
-             ttq.track('CompleteRegistration');
+            window.open(`https://wa.me/?text=${encodedMessage}`, '_blank');
         }
         
-        function contactLine() {
+         
+
+         function contactLine() {
             const message = `您好，我想諮詢${selectedGender}${selectedProduct}的相關信息`;
             const encodedMessage = encodeURIComponent(message); 
             window.open('https://line.me/ti/p/MZDFRBhBbz', '_blank');
@@ -390,6 +331,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
              ttq.track('Purchase');
              ttq.track('CompleteRegistration');
         }
+        
         
         // Certification carousel functionality
         let currentCertSlide = 0;
